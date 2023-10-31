@@ -36,12 +36,20 @@
     color: var(--cor-primaria);
 }
 
-.destaque-container{
-    height: 260px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+/* TABLET */
+@media (max-width:768px){
+    .home{
+        background-image: url(../img/background-tablet.png);
+        background-position: right top;
+    }
+    .conteudo-container{
+        flex-direction: column-reverse;
+    }
+
+    .destaque-container{
+        display: none;
+    }
 }
+
+
 
