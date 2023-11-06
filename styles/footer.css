@@ -119,6 +119,9 @@ footer{
 
 
 @media (max-width:768px){
+    footer{
+        padding-bottom: 50px;
+    }
 
     .contato-links{
         display: none;
@@ -131,7 +134,7 @@ footer{
         "contatos sociais";
 
         place-items: start;
-        padding-inline:132px ;
+        padding-inline: 132px;
         gap: 12px;
     }
 
